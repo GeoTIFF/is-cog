@@ -1,4 +1,4 @@
-:warning: This package is under development.  Please report an issues here: https://github.com/geotiff/is-cog/issues
+:warning: This package is under development.  Please report any issues here: https://github.com/geotiff/is-cog/issues
 # is-cog
 Super Light and Fast Method for Checking if a TIFF is a Cloud Optimized GeoTIFF
 
