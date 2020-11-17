@@ -5,7 +5,7 @@ Super Light and Fast Method for Checking if a TIFF is a Cloud Optimized GeoTIFF
 # how does it work
 1. It uses [id-tif](https://github.com/DanielJDufour/id-tif) to check if the file is a TIFF. 
 2. If it is a TIFF, it uses [is-geotiff](https://github.com/GeoTIFF/is-geotiff) to check if the file is a GeoTIFF.
-3. If it is a GeoTIFF, it checks if the bytes associated with the following tags are present: TileWidth, TileLength, TileOffsets, and TileByteCounts.
+3. If it is a GeoTIFF, it uses [has-bytes](https://github.com/DanielJDufour/has-bytes) to check if the bytes associated with the following tags are present: TileWidth, TileLength, TileOffsets, and TileByteCounts.
 
 # install
 ```bash
