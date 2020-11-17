@@ -1,6 +1,6 @@
 {
   "name": "is-cog",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Super Light and Fast Method for Checking if a TIFF is a Cloud Optimized GeoTIFF",
   "main": "is-cog.js",
   "scripts": {
