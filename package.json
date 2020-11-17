@@ -1,0 +1,35 @@
+{
+  "name": "is-cog",
+  "version": "0.0.0",
+  "description": "Super Light and Fast Method for Checking if a TIFF is a Cloud Optimized GeoTIFF",
+  "main": "is-cog.js",
+  "scripts": {
+    "format": "npx prettier --arrow-parens=avoid --trailing-comma=none --write *.js",
+    "setup": "cd data && ./setup.sh",
+    "test": "ava --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GeoTIFF/is-cog.git"
+  },
+  "keywords": [
+    "cog",
+    "file",
+    "geotiff",
+    "tiff"
+  ],
+  "author": "Daniel J. Dufour",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/GeoTIFF/is-cog/issues"
+  },
+  "homepage": "https://github.com/GeoTIFF/is-cog#readme",
+  "dependencies": {
+    "has-bytes": "0.0.2",
+    "id-tif": "0.0.1",
+    "is-geotiff": "0.0.1"
+  },
+  "devDependencies": {
+    "ava": "^3.13.0"
+  }
+}

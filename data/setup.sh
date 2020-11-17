@@ -1,0 +1,3 @@
+#!/bin/sh -e
+
+wget https://landsat-pds.s3.amazonaws.com/c1/L8/024/030/LC08_L1TP_024030_20180723_20180731_01_T1/LC08_L1TP_024030_20180723_20180731_01_T1_B4.TIF
